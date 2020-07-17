@@ -64,6 +64,9 @@ body {
     font-family: 'Montserrat Alternates Medium';
     outline: none;
   }
+  button:active{
+    box-shadow: inset -3px -3px  4px rgba(113, 176, 235,0.5);
+  }
   .message{
   font-family: 'Montserrat Alternates Medium';
   outline: none;
@@ -101,3 +104,6 @@ body {
     display: block;
     background-color: #71b0eb;
    }
+label:active{
+  outline: none;
+}
