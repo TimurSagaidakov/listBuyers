@@ -7,6 +7,9 @@
   font-weight: normal;
   font-style: normal;
   }
+*{
+  outline: none;
+}
 body {
     background-color: #97f7ec;
     font-family: 'Montserrat Alternates Medium';
