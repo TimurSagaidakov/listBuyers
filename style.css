@@ -112,20 +112,14 @@ body {
     height: 3px;
     display: block;
     background-color: #71b0eb;
+    animation: show 1s;  
    }
-   .todo__icon {
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    height: auto;
-    margin: auto;
-    
-    fill: none;
-    stroke: #27FDC7;
-    stroke-width: 2;
-    stroke-linejoin: round;
-    stroke-linecap: round;
+@keyframes show {
+  0% {
+    width: 0;
   }
+  100% {
+    width: 100%;
+  }
+}
   
