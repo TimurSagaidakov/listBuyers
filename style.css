@@ -63,9 +63,15 @@ body {
     border-radius: 10px;
     font-family: 'Montserrat Alternates Medium';
     outline: none;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
   }
   button:active{
+    outline: none;
     box-shadow: inset -3px -3px  4px rgba(113, 176, 235,0.5);
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  }
+  button:focus{
+    outline: none;
   }
   .message{
   font-family: 'Montserrat Alternates Medium';
@@ -77,6 +83,7 @@ body {
       padding: 0.5em 0 ;
       list-style-type: none;
       color: #ffffff;
+      -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
       }
       .todo li:not(:last-child) {
        }  
@@ -88,6 +95,8 @@ body {
     margin: 5px;
     cursor: pointer; 
     position: relative;
+    font-size: 30px;
+
   }
   input[type=checkbox] {
       opacity: 0;
@@ -104,6 +113,19 @@ body {
     display: block;
     background-color: #71b0eb;
    }
-label:active{
-  outline: none;
-}
+   .todo__icon {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: auto;
+    margin: auto;
+    
+    fill: none;
+    stroke: #27FDC7;
+    stroke-width: 2;
+    stroke-linejoin: round;
+    stroke-linecap: round;
+  }
+  

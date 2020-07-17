@@ -65,3 +65,6 @@ clear.addEventListener('click',function(event){
     todo.innerHTML = '';
     localStorage.clear();
 });
+
+
+    
