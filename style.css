@@ -22,7 +22,7 @@ body {
     color: #A40E11; }
   
   .todo_list {
-    max-width: 400px;
+    width: 300px;
     display: block;
     margin: 0 auto 40px;
     background-color: #f99096;
@@ -43,7 +43,8 @@ body {
     text-align: center; }
   
   input[type=text] {
-    width: 376px;
+    box-sizing: border-box;
+    width: 300px;
     padding: 10px; 
     border-radius: 10px;
     border: 2px solid #71b0eb;
@@ -51,7 +52,7 @@ body {
   
   button {
     margin-top: 10px;
-    width: 400px;
+    width: 300px;
     padding: 10px;
     cursor: pointer; 
     background-color: #dad7f5;
