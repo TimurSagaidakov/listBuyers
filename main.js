@@ -49,17 +49,6 @@ todo.addEventListener('change', function(event){
     });
 
 });
-
-todo.addEventListener('contextmenu', function(event){
-    event.preventDefault();
-    todoList.forEach(function(item){
-        if(item.todo === event.target.innerHTML){
-            item.important= !item.important;
-            displayMessages();
-            localStorage.setItem('todo', JSON.stringify(todoList));
-        };
-    });
-});
 clear.addEventListener('click',function(event){    
     todoList = [];
     todo.innerHTML = '';
